@@ -73,4 +73,5 @@ Oreilly Example:
 https://resources.oreilly.com/binderhub/testing-data-pipelines-with-data-validation/-/tree/master/
 
 To-Do:
-1. Ask Oreilly about Demo (need Docker and UI access)
+1. Ask Oreilly about Demo (need Docker and UI access) - can we just share a repo and then share screen?
+2. Set date for dry run
