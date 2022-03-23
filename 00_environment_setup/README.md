@@ -4,14 +4,27 @@ docker is a great entrypoint (pun somewhat intended) into world of engineering! 
 
 ## what we need
 - install prefect
-- install docker
+```console
+$ pip install 'prefect==2.0b2'
+```
+
+- [install docker](https://docs.docker.com/engine/install/)
+
 
 Optional:
-- install jupyter
-- Snowflake
-- DBT
-- Airbyte
- 
-# what we'll do
 
+- your own [airbyte](https://docs.airbyte.com/#quick-start) instance
+- [snowflake trial account](https://signup.snowflake.com)
+- install jupyter to interact locally with our notebooks
+```console
+$ pip install jupyter
 
+$ cd ../../oreilly-course
+
+$ jupyter notebook
+```
+- install [dbt](https://docs.getdbt.com/dbt-cli/install/overview) to run transforms on your warehouse objects
+
+```console
+$ pip install dbt-core dbt-snowflake
+```
