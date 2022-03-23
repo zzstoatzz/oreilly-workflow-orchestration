@@ -67,7 +67,7 @@ Putting a Real Pipeline Together (30 mins) - Nate:
 * Introduction to Airbyte
 * Introduction to dbt
 * Introduction to Snowflake
-* Exercise: Constructing and running an end-to-end pipeline
+* Demo: Constructing and running an end-to-end pipeline
 * Q&A and Wrap Up
 
 
