@@ -68,8 +68,8 @@ For the advanced section of this course, we will use a couple of common data eng
 
 ## Cloning the repo 
 
-<p align="left"> To clone the repo and run locally: 
-   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="10" style="max-width: 10px;">
+<p align="left"> To clone the repo and run locally
+   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" style="max-width: 20px;">
 </p>
 
 ```
