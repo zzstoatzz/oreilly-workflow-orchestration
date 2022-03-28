@@ -47,17 +47,14 @@ pip install -r requirements.txt
 
 **Optional**
 
+<p align="left">
+   <img src="https://raw.githubusercontent.com/airbytehq/airbyte/f8ce9f2155fb1687fa12dcfbe7705cc70dc2898d/docs/.gitbook/assets/airbyte_new_logo.svg" width="200" style="max-width: 200px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Snowflake_Logo.svg/2560px-Snowflake_Logo.svg.png" width="200" style="max-width: 200px;">
+   <img src="https://raw.githubusercontent.com/dbt-labs/dbt-core/fa1ea14ddfb1d5ae319d5141844910dd53ab2834/etc/dbt-core.svg" width="200" style="max-width: 200px;">
+</p>
+
 For the advanced section of this course, we will use a couple of common data engineering tools:
 - your own [Airbyte](https://docs.airbyte.com/#quick-start) instance
 - [Snowflake trial account](https://signup.snowflake.com)
 - install [dbt](https://docs.getdbt.com/dbt-cli/install/overview) to run transforms on your warehouse objects
 
-<p align="left">
-   <img src="https://raw.githubusercontent.com/airbytehq/airbyte/f8ce9f2155fb1687fa12dcfbe7705cc70dc2898d/docs/.gitbook/assets/airbyte_new_logo.svg" width="500" style="max-width: 500px;">
-</p>
-<p align="left">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Snowflake_Logo.svg/2560px-Snowflake_Logo.svg.png" width="500" style="max-width: 500px;">
-</p>
-<p align="left">
-   <img src="https://raw.githubusercontent.com/dbt-labs/dbt-core/fa1ea14ddfb1d5ae319d5141844910dd53ab2834/etc/dbt-core.svg" width="500" style="max-width: 500px;">
-</p>
