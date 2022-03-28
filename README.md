@@ -36,7 +36,7 @@ Ideally, you can create a virtual environment (conda, pipenv, poetry) to install
 
 To install the requirements with pip:
 
-```console
+```
 pip install -r requirements.txt
 ```
 
@@ -65,3 +65,15 @@ For the advanced section of this course, we will use a couple of common data eng
 - your own [Airbyte](https://docs.airbyte.com/#quick-start) instance
 - [Snowflake trial account](https://signup.snowflake.com)
 - install [dbt](https://docs.getdbt.com/dbt-cli/install/overview) to run transforms on your warehouse objects
+
+## Cloning the repo 
+
+<p align="left"> To clone the repo and run locally: 
+   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="200" style="max-width: 200px;">
+</p>
+
+```
+git clone https://github.com/zzstoatzz/oreilly-workflow-orchestration.git
+```
+
+And then each notebook can be viewed and executed. Some of the code will extend beyond the notebooks because data workflows glue other tools (sometimes non-Python) together.
