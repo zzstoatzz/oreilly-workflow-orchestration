@@ -6,6 +6,8 @@
 
 **Build, run, and monitor data pipelines at scale**
 
+Prepared for [O'Reilly Media](https://www.oreilly.com/live-events/getting-started-with-workflow-orchestration/0636920069056/0636920069055/)
+
 ### Instructors:
 
 * [Kalise Richmond](https://www.linkedin.com/in/kaliserichmond/) - Sales Engineer, Prefect
@@ -46,6 +48,8 @@ pip install -r requirements.txt
 
 
 **Optional**
+
+These are optional dependencies but were added in the `requirements.txt` for convenience.
 
 <p align="left">
    <img src="https://raw.githubusercontent.com/airbytehq/airbyte/f8ce9f2155fb1687fa12dcfbe7705cc70dc2898d/docs/.gitbook/assets/airbyte_new_logo.svg" width="200" style="max-width: 200px;">
