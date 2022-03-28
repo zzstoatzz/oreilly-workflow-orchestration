@@ -60,7 +60,6 @@ Advanced Patterns and Subflows (20 min) - Nate:
 
 Break (10 min)
 
-TO-DO:
 Putting a Real Pipeline Together (30 mins) - Nate:
 * Presentation: 
 * ELT introduction
@@ -70,10 +69,3 @@ Putting a Real Pipeline Together (30 mins) - Nate:
 * Demo: Constructing and running an end-to-end pipeline
 * Q&A and Wrap Up
 
-
-Oreilly Example:
-https://resources.oreilly.com/binderhub/testing-data-pipelines-with-data-validation/-/tree/master/
-
-To-Do:
-1. Ask Oreilly about Demo (need Docker and UI access) - can we just share a repo and then share screen?
-2. Set date for dry run
