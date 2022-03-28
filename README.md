@@ -40,9 +40,9 @@ pip install -r requirements.txt
 
 **Docker**
 
-[Docker](https://www.docker.com/) is a great entrypoint (pun somewhat intended) into world of engineering! We'll be using it to provide reproducible environments to execute our workflows in.
+[Docker](https://www.docker.com/) is a great entrypoint (pun somewhat intended) into world of engineering! We'll be using it to provide reproducible environments to execute our workflows in. We also have a section devoted to Docker.
 
-- [install docker](https://docs.docker.com/engine/install/)
+- [To install Docker](https://docs.docker.com/engine/install/)
 
 
 **Optional**
