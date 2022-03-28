@@ -1,0 +1,5 @@
+prefect==2.0b2
+beautifulsoup4
+dbt-snowflake
+dbt-core
+jupyter

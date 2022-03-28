@@ -1,71 +1,67 @@
-# oreilly-course
+# Getting Started with Workflow Orchestration
 
-Outline:
-Course Overview (10 min)
-* Presentation: Introductions and Welcome
-* Presentation: Overview of Materials
+<p align="center">
+   <img src="https://www.prefect.io/assets/img/prefect-logo-gradient-navy.0cb04f87.svg" width="500" style="max-width: 500px;">
+</p>
 
-Negative Engineering and Workflow Orchestration (20 min) - Kalise: 
-* Presentation: 
-* Negative Engineering - How Production Data Pipelines can Fail
-* Consequences of Pipeline Failures
-* Common Workflow Patterns
-* Exercise: Native Python Work Example
-* Presentation: The Need for Workflow Orchestration
-* Discussion: What Can You Use Workflow Orchestration For?
-* Q&A
+**Build, run, and monitor data pipelines at scale**
 
-Prefect and Basic Orchestration Features (30 min) - Kalise: 
-* Presentation: 
-* Retries
-* Parameters - Validation
-* Deployments - including Schedulling
-* Task Library - GONE
-* Secrets - GONE
-* Async execution
-* Exercise: Putting Together a Simple Data Pipeline
-* Q&A
+Prepared for [O'Reilly Media](https://www.oreilly.com/live-events/getting-started-with-workflow-orchestration/0636920069056/0636920069055/)
 
-Break (5 min)
+### Instructors:
 
-Using Distributed Compute for Parallel Execution (Dask) (20 mins) - Kalise:
-* Presentation: 
-* What is Dask?
-* What makes Dask good for distributed compute?
-* Depth-first execution/mapping
-* Using Dask for parallelizing tasks
-* Exercise: Running a Flow on Dask using Base Prefect Image
-* Q&A
+* [Kalise Richmond](https://www.linkedin.com/in/kaliserichmond/) - Sales Engineer, Prefect
+* [Nathan Nowack](https://www.linkedin.com/in/nathan-nowack-a6b59b143/) - Solutions Engineer, Prefect
+
+### About this course:
+
+Data engineers and scientists spend most of their time on negative or defensive engineering, writing code to handle unpredictable failures such as resources going down, APIs intermittently failing, or malformed data corrupting data pipelines. Workflow orchestration tools help eliminate negative engineering, allowing engineers and scientists to focus on the problems they are solving. Modern data applications have evolved, and orchestrators such as Prefect are providing more runtime flexibility and the ability to leverage distributed compute through Dask.
+
+Discover how workflow orchestration can free you up to build solutions, not just avert failures. You’ll learn about basic orchestration features such as retries, scheduling, parameterization, caching, and secret management, and you’ll construct real data pipelines.
+
+## Let's get our development environment set up! 🚀
+
+For this course you will need:
+
+**Python**
+
+Python greater than version 3.6 is required. Version 3.6 is reaching end of life soon.
+
+* Packages in the `requirements.txt` file
+    * prefect==2.0b2 - workflow orchestration
+    * beautifulsoup4 - web scraping
+    * jupyter        - interactive notebooks
+
+Ideally, you can create a virtual environment (conda, pipenv, poetry) to install the dependencies.
+
+To install the requirements with pip:
+
+```console
+pip install -r requirements.txt
+```
+
+**Docker**
+
+<p align="left">
+   <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="200" style="max-width: 200px;">
+</p>
 
 
-Docker and Python Packaging (25 min) - Nate:
-* Presentation: 
-* The need for Docker
-* How to create a Python Package
-* Uploading an image to a registry
-* Exercise: Building a simple image
-* Q&A
-Resource: https://medium.com/the-prefect-blog/the-simple-guide-to-productionizing-data-workflows-with-docker-31a5aae67c0a
+[Docker](https://www.docker.com/) is a great entrypoint (pun somewhat intended) into world of engineering! We'll be using it to provide reproducible environments to execute our workflows in. We also have a section devoted to Docker.
 
+- [To install Docker](https://docs.docker.com/engine/install/)
 
-Advanced Patterns and Subflows (20 min) - Nate:
-* Presentation: 
-* Orchestration Pattern with Flow of Flows
-* Breaking the DAG
-* The need for runtime flexibility
-* Analytics on top of workflow history (Prefect UI Dashboard and Filters)
-* Exercise: Running a Flow without pre-registered components (native Python functions and if-else)
-* Discussion: What use cases need runtime flexibility?
-* Q&A
+**Optional**
 
-Break (10 min)
+These are optional dependencies but were added in the `requirements.txt` for convenience.
 
-Putting a Real Pipeline Together (30 mins) - Nate:
-* Presentation: 
-* ELT introduction
-* Introduction to Airbyte
-* Introduction to dbt
-* Introduction to Snowflake
-* Demo: Constructing and running an end-to-end pipeline
-* Q&A and Wrap Up
+<p align="left">
+   <img src="https://raw.githubusercontent.com/airbytehq/airbyte/f8ce9f2155fb1687fa12dcfbe7705cc70dc2898d/docs/.gitbook/assets/airbyte_new_logo.svg" width="200" style="max-width: 200px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Snowflake_Logo.svg/2560px-Snowflake_Logo.svg.png" width="200" style="max-width: 200px;">
+   <img src="https://raw.githubusercontent.com/dbt-labs/dbt-core/fa1ea14ddfb1d5ae319d5141844910dd53ab2834/etc/dbt-core.svg" width="200" style="max-width: 200px;">
+</p>
 
+For the advanced section of this course, we will use a couple of common data engineering tools:
+- your own [Airbyte](https://docs.airbyte.com/#quick-start) instance
+- [Snowflake trial account](https://signup.snowflake.com)
+- install [dbt](https://docs.getdbt.com/dbt-cli/install/overview) to run transforms on your warehouse objects
