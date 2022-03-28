@@ -82,8 +82,8 @@ And then each notebook can be viewed and executed. Some of the code will extend 
 
 For any questions, feel free to reach to out us!
 
-Kalise - kalise@prefect.io
-Nate - nate@prefect.io
+* Kalise - kalise@prefect.io
+* Nate - nate@prefect.io
 
 The [Prefect Slack](https://www.prefect.io/slack/) is also a good resource for Prefect and Workflow Orchestration questions.
 
