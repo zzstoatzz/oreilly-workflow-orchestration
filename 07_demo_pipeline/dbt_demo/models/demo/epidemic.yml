@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: epidemic
+    database: AIRBYTE_RAW
+    schema: epidemiology
+    tables:
+      - name: epidemic_stats

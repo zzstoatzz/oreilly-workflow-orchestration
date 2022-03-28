@@ -1,0 +1,1 @@
+select * from {{ source('epidemic', 'epidemic_stats') }}
