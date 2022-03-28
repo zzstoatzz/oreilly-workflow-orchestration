@@ -42,10 +42,14 @@ pip install -r requirements.txt
 
 **Docker**
 
+<p align="left">
+   <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="200" style="max-width: 200px;">
+</p>
+
+
 [Docker](https://www.docker.com/) is a great entrypoint (pun somewhat intended) into world of engineering! We'll be using it to provide reproducible environments to execute our workflows in. We also have a section devoted to Docker.
 
 - [To install Docker](https://docs.docker.com/engine/install/)
-
 
 **Optional**
 
@@ -61,4 +65,3 @@ For the advanced section of this course, we will use a couple of common data eng
 - your own [Airbyte](https://docs.airbyte.com/#quick-start) instance
 - [Snowflake trial account](https://signup.snowflake.com)
 - install [dbt](https://docs.getdbt.com/dbt-cli/install/overview) to run transforms on your warehouse objects
-
