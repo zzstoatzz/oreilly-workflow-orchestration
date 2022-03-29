@@ -5,4 +5,4 @@ sources:
     database: AIRBYTE_RAW
     schema: epidemiology
     tables:
-      - name: epidemic_stats
+      - name: _airbyte_raw_epidemic_stats
