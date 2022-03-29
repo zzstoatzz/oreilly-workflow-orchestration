@@ -1,4 +1,6 @@
 from prefect import flow, task
+from prefect.deployments import DeploymentSpec
+from prefect.flow_runners import DockerFlowRunner
 
 from components.componentA import ComponentA 
 from components.componentB import ComponentB
@@ -17,6 +19,6 @@ def custom_flow():
 
 DeploymentSpec(
     name="docker-example",
-    flow=my_docker_flow,
+    flow=custom_flow,
     flow_runner=DockerFlowRunner()
 )
