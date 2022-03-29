@@ -14,3 +14,9 @@ def custom_task():
 @flow
 def custom_flow():
     custom_task()
+
+DeploymentSpec(
+    name="docker-example",
+    flow=my_docker_flow,
+    flow_runner=DockerFlowRunner()
+)
