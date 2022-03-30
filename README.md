@@ -23,24 +23,26 @@ Discover how workflow orchestration can free you up to build solutions, not just
 
 For this course you will need:
 
-### Python
+### **Python**
 
-Python greater than version 3.6 is required. Version 3.6 is reaching end of life soon.
+Python greater than version 3.6 is required (version 3.6 is reaching end of life soon).
 
 * Packages in the `requirements.txt` file
-    * prefect==2.0b2 - workflow orchestration
-    * beautifulsoup4 - web scraping
-    * jupyter        - interactive notebooks
+    * `prefect==2.0b2` - workflow orchestration
+    * `beautifulsoup4` - web scraping
+    * `jupyter`        - interactive notebooks
 
-Ideally, you can create a virtual environment (conda, pipenv, poetry) to install the dependencies.
+Ideally, you should create a virtual environment (conda, pipenv, poetry) to install the dependencies.
 
 To install the requirements with pip:
 
-```
+```console
 pip install -r requirements.txt
 ```
 
-### Docker
+<hr>
+
+### **Docker**
 
 <p align="left">
    <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="200" style="max-width: 200px;">

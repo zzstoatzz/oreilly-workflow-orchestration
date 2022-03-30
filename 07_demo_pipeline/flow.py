@@ -7,7 +7,7 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-# running on EC2, port forwarded into via public IP
+# running on EC2, port forwarded to local via EIP
 @task(name='trigger airbtye sync')
 def trigger_airbyte_sync(connectionId: str) -> bool:
     try:
