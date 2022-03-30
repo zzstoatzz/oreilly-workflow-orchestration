@@ -47,9 +47,9 @@ def trigger_dbt_job(dbt_command: str) -> None:
 @flow(name='My Basic Data Pipeline')
 def my_flow(airbyte_connection_id: str, dbt_command: str) -> None:
     
-    result = trigger_airbyte_sync(airbyte_connection_id)
+    sync = trigger_airbyte_sync(airbyte_connection_id)
 
-    if result.result():
+    if sync.result():
         trigger_dbt_job(dbt_command)
 
 if __name__ == "__main__":
