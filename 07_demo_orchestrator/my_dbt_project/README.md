@@ -1,3 +1,7 @@
+## README below + scaffolding via `dbt init`
+
+<hr>
+
 Welcome to your new dbt project!
 
 ### Using the starter project

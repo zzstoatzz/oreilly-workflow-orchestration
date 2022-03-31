@@ -32,7 +32,7 @@ Python greater than version 3.6 is required (version 3.6 is reaching end of life
     * `beautifulsoup4` - web scraping
     * `jupyter`        - interactive notebooks
 
-Ideally, you should create a virtual environment (conda, pipenv, poetry) to install the dependencies.
+Ideally, you should create a virtual environment ([conda](https://docs.conda.io/en/latest/miniconda.html), [pipenv](https://pipenv.pypa.io/en/latest/install/), [poetry](https://python-poetry.org/docs/)) to install the dependencies.
 
 To install the requirements with pip:
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 [Docker](https://www.docker.com/) is a great entrypoint (pun somewhat intended) into world of engineering! We'll be using it to provide reproducible environments to execute our workflows in. We also have a section devoted to Docker.
 
-- [To install Docker](https://docs.docker.com/engine/install/)
+- [installing Docker](https://docs.docker.com/engine/install/)
 
 ### Optional Dependencies
 
