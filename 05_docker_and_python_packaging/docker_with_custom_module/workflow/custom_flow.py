@@ -22,3 +22,6 @@ DeploymentSpec(
     flow=custom_flow,
     flow_runner=DockerFlowRunner()
 )
+
+if __name__ == "__main__":
+    custom_flow()

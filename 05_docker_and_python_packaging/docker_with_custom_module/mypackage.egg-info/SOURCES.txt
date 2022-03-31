@@ -1,0 +1,9 @@
+setup.py
+components/__init__.py
+components/componentA.py
+components/componentB.py
+mypackage.egg-info/PKG-INFO
+mypackage.egg-info/SOURCES.txt
+mypackage.egg-info/dependency_links.txt
+mypackage.egg-info/requires.txt
+mypackage.egg-info/top_level.txt
