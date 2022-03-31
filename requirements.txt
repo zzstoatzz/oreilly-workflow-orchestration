@@ -3,3 +3,4 @@ beautifulsoup4
 dbt-snowflake
 dbt-core
 jupyter
+SQLAlchemy==1.4.31
